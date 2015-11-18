@@ -202,4 +202,5 @@ function _current_posts_page()
         );
         return $page_array;
     }
+
 }

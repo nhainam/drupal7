@@ -1,0 +1,29 @@
+/*** COMMON ***/
+* { margin:0; padding: 0;} /* Clear all predefined margins and paddings to make it easier to style */
+html { overflow-y: scroll;} /* Prevent page-shift to right when little or no content. */
+body { font-family: Arial, sans-serif;} /* Change the default font to Arial. Generic sans-serif will be applied if Arial is not available */
+a { color: #000; outline: none;} /* Remove dotted outline from links (might want to leave it for better usability). */
+p { padding: 1em;}
+
+/*** LAYOUT ***/
+
+/* WRAPPER */
+#wrapper { width: 1000px; margin: 0 auto;} /* Make it 1000px wide and center it */
+
+/* NAVIGATION */
+#navigation { width: 1000px; height: 50px; border: 1px solid #ccc; border-top: none; background-color: #eee;  } /* Define width, height, border and background color */
+#navigation ul { width: 400px;  margin: 0 auto; list-style: none; line-height: 50px;} /* list-style removes the dots, line-height centers the links vertically */
+#navigation ul li{ display: inline;} /* Spread the list elements horizontally */
+
+/* HEADER */
+#header { width: 1000px; height: 150px; border: 1px solid #ccc; border-top: none; background-color: #ddd; }
+#header h1 { line-height: 150px; padding: 0 0 0 60px; font-size: 40px;}
+
+/* PAGE-WRAPPER */
+#page-wrapper { width: 1000px; border: 1px solid #ccc; border-top: none; overflow: hidden;}
+
+/* SIDEBAR */
+#sidebar {  width: 260px; float: right; border-left: 1px solid #ccc;  background-color: #eee; padding: 20px 20px 10000px 20px;  margin-bottom: -10000px; }
+
+/* CONTENT */
+#content { margin-right: 300px; padding: 20px;}
