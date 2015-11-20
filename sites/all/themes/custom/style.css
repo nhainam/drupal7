@@ -11,12 +11,15 @@ p { padding: 1em;}
 #wrapper { width: 1000px; margin: 0 auto;} /* Make it 1000px wide and center it */
 
 /* NAVIGATION */
-#navigation { width: 1000px; height: 50px; border: 1px solid #ccc; border-top: none; background-color: #eee;  } /* Define width, height, border and background color */
+#navigation { float:left; width: 599px; height: 50px; border: 1px solid #ccc; border-top: none; border-right: none; background-color: #eee;  } /* Define width, height, border and background color */
 #navigation ul { width: 400px;  margin: 0 auto; list-style: none; line-height: 50px;} /* list-style removes the dots, line-height centers the links vertically */
 #navigation ul li{ display: inline;} /* Spread the list elements horizontally */
 
+/* LOGIN */
+#login {  float: left;  width: 399px; height: 50px; border: 1px solid #ccc; border-top: none; border-left: none; background-color: #eee;  }
+
 /* HEADER */
-#header { width: 1000px; height: 150px; border: 1px solid #ccc; border-top: none; background-color: #ddd; }
+#header { float: left;  width: 1000px; height: 150px; border: 1px solid #ccc; border-top: none; background-color: #ddd; }
 #header h1 { line-height: 150px; padding: 0 0 0 60px; font-size: 40px;}
 
 /* PAGE-WRAPPER */
@@ -27,3 +30,7 @@ p { padding: 1em;}
 
 /* CONTENT */
 #content { margin-right: 300px; padding: 20px;}
+
+
+/* FOOTER */
+#footer { width: 980px; height: 50px; border: 1px solid #ccc; border-top: none; background-color: #ddd; padding:10px 10px; vertical-align: middle; line-height: 50px;}
